@@ -39,7 +39,7 @@ function startVisualizer() {
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
         // Set line style
-        var scaleFactor = 0.5;
+        var scaleFactor = 0.8;
         ctx.strokeStyle = "white"
         ctx.lineWidth = 1.5;
 
