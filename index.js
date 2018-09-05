@@ -1,6 +1,6 @@
-input.onchange = function(e){
-    var audio = document.getElementById('audio')
-    audio.crossOrigin = 'Anonymous'
+var audio = document.getElementById('audio')
+
+input.onchange = function(e) {
     audio.src = URL.createObjectURL(this.files[0]);
     audio.play()
     startVisualizer()
@@ -15,20 +15,15 @@ input.onchange = function(e){
 }
 
 document.getElementById('playDefaultLink').onclick = (e) => {
-    var audio = document.getElementById('audio')
     audio.play()
-    startVisualizer(audio)
+    startVisualizer()
 
     // Hide file upload div. Show visualizer.
     document.getElementById('step1').style.cssText = "display: none;"
     document.getElementById('step2').style.cssText = ""
-    
-    audio.onend = function(e) {
-        URL.revokeObjectURL(this.src);
-    }
 }
 
-function startVisualizer(audio) {
+function startVisualizer() {
     var analyser = require('web-audio-analyser')(audio);
     var canvas = document.getElementById('canvas');
     var ctx = canvas.getContext('2d');
