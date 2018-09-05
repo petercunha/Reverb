@@ -1,6 +1,8 @@
 # Reverb
 Reverb is an audio visualizer built on the Web Audio API and HTML5 Canvas.
 
+[Try the demo](https://reverb.surge.sh)
+
 ## Installation
 
 This will download the git repository, install the required NPM modules, build them, and serve the files.
