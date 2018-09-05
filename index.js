@@ -36,9 +36,7 @@ function startVisualizer() {
 
         // Clear canvas
         ctx.fillStyle="black";
-        ctx.globalAlpha = 0.4;
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.globalAlpha = 1.0
 
         // Set line style
         var scaleFactor = 1.5;
