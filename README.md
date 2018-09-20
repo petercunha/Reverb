@@ -5,11 +5,11 @@ Reverb is a simple audio visualizer that uses the [Web Audio API](https://develo
 - Written in plain JavaScript, visualizations done in HTML5 Canvas.
 - No server required. Everything is served statically.
 
-[Try the demo](https://reverb.surge.sh)
-
-## Preview
-
 ![Reverb Demo](demo.gif)
+
+## Demo
+
+[**Click here to try Reverb in your browser**](https://reverb.surge.sh)
 
 ## Installation
 
