@@ -5,7 +5,7 @@ Reverb is an audio visualizer built on the Web Audio API and HTML5 Canvas.
 
 ## Preview
 
-![https://i.imgur.com/DbWyqZN.gif](Image)
+![Reverb Demo](https://i.imgur.com/DbWyqZN.gif)
 
 ## Installation
 
