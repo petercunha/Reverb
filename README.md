@@ -1,5 +1,9 @@
 # Reverb
-Reverb is an audio visualizer built on the Web Audio API and HTML5 Canvas.
+Reverb is a simple audio visualizer that uses the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) to extract live [waveforms](https://en.wikipedia.org/wiki/Waveform) of audio files. Rendering is done to the HTML5 Canvas.
+
+- Visualize any audio file you want!
+- Written in plain JavaScript, visualizations done in HTML5 Canvas.
+- No server required. Everything is served statically.
 
 [Try the demo](https://reverb.surge.sh)
 
